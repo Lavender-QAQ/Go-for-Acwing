@@ -2,11 +2,11 @@ package main
 
 import "fmt"
 
-const maxn int = 60
+const maxn int = 110
 
 var (
 	g [maxn][maxn]int
-	f [2 * maxn][maxn][maxn]int
+	f [2*maxn][maxn][maxn]int
 )
 
 func max(a, b int) int {
@@ -22,15 +22,11 @@ func main() {
 	fmt.Scanf("%d%d", &n, &m)
 	for i := 1; i <= n; i++ {
 		for j := 1; j <= m; j++ {
-			fmt.Scanf("%d", &g[i][j])
+			_, err := fmt.Scanf("%d", &g[i][j])
+			for err != nil {
+				_, err = fmt.Scanf("%d", &g[i][j])
+			}
 		}
-	}
-	fmt.Println(n,m)
-	for i := 1; i <= n; i++ {
-		for j := 1; j <= m; j++ {
-			fmt.Printf("%d ", g[i][j])
-		}
-		fmt.Println()
 	}
 
 	for k := 2; k <= n+m; k++ {

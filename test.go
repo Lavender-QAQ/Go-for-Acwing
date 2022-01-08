@@ -3,8 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	var a = [2]int{1, 2}
-	var b = [2]int{0, 0}
-	copy(b[:], a[:])
-	fmt.Println(a,b)
+	var a, b, c, d int
+	_, err := fmt.Scanf("%d%d", &a, &b)
+	_, err = fmt.Scanf("%d%d", &c, &d)
+	if err != nil {
+		fmt.Scanf("%d%d",&c,&d)
+	}
+	fmt.Println(a,b,c,d)
 }

@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/Users/Lavender/Desktop/Go项目/Go-for-Acwing/build",
+  "command": "/opt/homebrew/bin/g++-11   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -o CMakeFiles/algo_main.dir/Algorithm/main.cpp.o -c /Users/Lavender/Desktop/Go项目/Go-for-Acwing/Algorithm/main.cpp",
+  "file": "/Users/Lavender/Desktop/Go项目/Go-for-Acwing/Algorithm/main.cpp"
+},
+{
+  "directory": "/Users/Lavender/Desktop/Go项目/Go-for-Acwing/build",
+  "command": "/opt/homebrew/bin/g++-11   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -o CMakeFiles/main.dir/main.cpp.o -c /Users/Lavender/Desktop/Go项目/Go-for-Acwing/main.cpp",
+  "file": "/Users/Lavender/Desktop/Go项目/Go-for-Acwing/main.cpp"
+}
+]

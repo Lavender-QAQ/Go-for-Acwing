@@ -10,6 +10,7 @@ add_executable(acwing91 Basic/Chapter_5/acwing91.cpp)
 add_executable(acwing291 Basic/Chapter_5/acwing291.cpp)
 add_executable(acwing1064 Advance/Chapter_1/acwing1064.cpp)
 add_executable(acwing327 Advance/Chapter_1/acwing327.cpp)
+add_executable(acwing292 Advance/Chapter_1/acwing292.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

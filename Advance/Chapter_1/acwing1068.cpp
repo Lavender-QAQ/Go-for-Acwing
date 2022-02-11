@@ -23,8 +23,8 @@ int main() {
         }
     int mx = -inf, mi = inf;
     for (int i = 1;i <= n;i++) {
-        mi = max(mi, f[i][i + n - 1]);
-        mx = min(mx, g[i][i + n - 1]);
+        mi = min(mi, f[i][i + n - 1]);
+        mx = max(mx, g[i][i + n - 1]);
     }
     cout << mi << endl << mx << endl;
     return 0;

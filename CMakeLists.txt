@@ -4,8 +4,8 @@ project(ACWING VERSION 0.1.0)
 include(CTest)
 enable_testing()
 
-add_executable(main Advance/Chapter_1/acwing1068.cpp)
-add_executable(algo_main Algorithm/main.cpp)
+add_executable(main Advance/Chapter_1/acwing1072.cpp)
+#add_executable(main Algorithm/main.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

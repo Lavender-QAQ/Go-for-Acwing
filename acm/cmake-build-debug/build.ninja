@@ -1,0 +1,2318 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: ACM
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/lavender/Desktop/ACM/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target Main
+
+
+#############################################
+# Order-only phony target for Main
+
+build cmake_object_order_depends_target_Main: phony || CMakeFiles/Main.dir
+
+build CMakeFiles/Main.dir/main.cpp.o: CXX_COMPILER__Main_Debug /Users/lavender/Desktop/ACM/main.cpp || cmake_object_order_depends_target_Main
+  DEP_FILE = CMakeFiles/Main.dir/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/Main.dir
+  OBJECT_FILE_DIR = CMakeFiles/Main.dir
+  TARGET_COMPILE_PDB = CMakeFiles/Main.dir/
+  TARGET_PDB = Main.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Main
+
+
+#############################################
+# Link the executable Main
+
+build Main: CXX_EXECUTABLE_LINKER__Main_Debug CMakeFiles/Main.dir/main.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/Main.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/Main.dir/
+  TARGET_FILE = Main
+  TARGET_PDB = Main.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1001
+
+
+#############################################
+# Order-only phony target for PAT1001
+
+build cmake_object_order_depends_target_PAT1001: phony || CMakeFiles/PAT1001.dir
+
+build CMakeFiles/PAT1001.dir/pat1001.cpp.o: CXX_COMPILER__PAT1001_Debug /Users/lavender/Desktop/ACM/pat1001.cpp || cmake_object_order_depends_target_PAT1001
+  DEP_FILE = CMakeFiles/PAT1001.dir/pat1001.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1001.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1001.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1001.dir/
+  TARGET_PDB = PAT1001.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1001
+
+
+#############################################
+# Link the executable PAT1001
+
+build PAT1001: CXX_EXECUTABLE_LINKER__PAT1001_Debug CMakeFiles/PAT1001.dir/pat1001.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1001.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1001.dir/
+  TARGET_FILE = PAT1001
+  TARGET_PDB = PAT1001.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1002
+
+
+#############################################
+# Order-only phony target for PAT1002
+
+build cmake_object_order_depends_target_PAT1002: phony || CMakeFiles/PAT1002.dir
+
+build CMakeFiles/PAT1002.dir/pat1002.cpp.o: CXX_COMPILER__PAT1002_Debug /Users/lavender/Desktop/ACM/pat1002.cpp || cmake_object_order_depends_target_PAT1002
+  DEP_FILE = CMakeFiles/PAT1002.dir/pat1002.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1002.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1002.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1002.dir/
+  TARGET_PDB = PAT1002.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1002
+
+
+#############################################
+# Link the executable PAT1002
+
+build PAT1002: CXX_EXECUTABLE_LINKER__PAT1002_Debug CMakeFiles/PAT1002.dir/pat1002.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1002.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1002.dir/
+  TARGET_FILE = PAT1002
+  TARGET_PDB = PAT1002.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1003
+
+
+#############################################
+# Order-only phony target for PAT1003
+
+build cmake_object_order_depends_target_PAT1003: phony || CMakeFiles/PAT1003.dir
+
+build CMakeFiles/PAT1003.dir/pat1003.cpp.o: CXX_COMPILER__PAT1003_Debug /Users/lavender/Desktop/ACM/pat1003.cpp || cmake_object_order_depends_target_PAT1003
+  DEP_FILE = CMakeFiles/PAT1003.dir/pat1003.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1003.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1003.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1003.dir/
+  TARGET_PDB = PAT1003.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1003
+
+
+#############################################
+# Link the executable PAT1003
+
+build PAT1003: CXX_EXECUTABLE_LINKER__PAT1003_Debug CMakeFiles/PAT1003.dir/pat1003.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1003.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1003.dir/
+  TARGET_FILE = PAT1003
+  TARGET_PDB = PAT1003.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1004
+
+
+#############################################
+# Order-only phony target for PAT1004
+
+build cmake_object_order_depends_target_PAT1004: phony || CMakeFiles/PAT1004.dir
+
+build CMakeFiles/PAT1004.dir/pat1004.cpp.o: CXX_COMPILER__PAT1004_Debug /Users/lavender/Desktop/ACM/pat1004.cpp || cmake_object_order_depends_target_PAT1004
+  DEP_FILE = CMakeFiles/PAT1004.dir/pat1004.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1004.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1004.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1004.dir/
+  TARGET_PDB = PAT1004.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1004
+
+
+#############################################
+# Link the executable PAT1004
+
+build PAT1004: CXX_EXECUTABLE_LINKER__PAT1004_Debug CMakeFiles/PAT1004.dir/pat1004.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1004.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1004.dir/
+  TARGET_FILE = PAT1004
+  TARGET_PDB = PAT1004.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1005
+
+
+#############################################
+# Order-only phony target for PAT1005
+
+build cmake_object_order_depends_target_PAT1005: phony || CMakeFiles/PAT1005.dir
+
+build CMakeFiles/PAT1005.dir/pat1005.cpp.o: CXX_COMPILER__PAT1005_Debug /Users/lavender/Desktop/ACM/pat1005.cpp || cmake_object_order_depends_target_PAT1005
+  DEP_FILE = CMakeFiles/PAT1005.dir/pat1005.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1005.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1005.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1005.dir/
+  TARGET_PDB = PAT1005.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1005
+
+
+#############################################
+# Link the executable PAT1005
+
+build PAT1005: CXX_EXECUTABLE_LINKER__PAT1005_Debug CMakeFiles/PAT1005.dir/pat1005.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1005.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1005.dir/
+  TARGET_FILE = PAT1005
+  TARGET_PDB = PAT1005.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1006
+
+
+#############################################
+# Order-only phony target for PAT1006
+
+build cmake_object_order_depends_target_PAT1006: phony || CMakeFiles/PAT1006.dir
+
+build CMakeFiles/PAT1006.dir/pat1006.cpp.o: CXX_COMPILER__PAT1006_Debug /Users/lavender/Desktop/ACM/pat1006.cpp || cmake_object_order_depends_target_PAT1006
+  DEP_FILE = CMakeFiles/PAT1006.dir/pat1006.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1006.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1006.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1006.dir/
+  TARGET_PDB = PAT1006.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1006
+
+
+#############################################
+# Link the executable PAT1006
+
+build PAT1006: CXX_EXECUTABLE_LINKER__PAT1006_Debug CMakeFiles/PAT1006.dir/pat1006.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1006.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1006.dir/
+  TARGET_FILE = PAT1006
+  TARGET_PDB = PAT1006.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1007
+
+
+#############################################
+# Order-only phony target for PAT1007
+
+build cmake_object_order_depends_target_PAT1007: phony || CMakeFiles/PAT1007.dir
+
+build CMakeFiles/PAT1007.dir/pat1007.cpp.o: CXX_COMPILER__PAT1007_Debug /Users/lavender/Desktop/ACM/pat1007.cpp || cmake_object_order_depends_target_PAT1007
+  DEP_FILE = CMakeFiles/PAT1007.dir/pat1007.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1007.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1007.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1007.dir/
+  TARGET_PDB = PAT1007.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1007
+
+
+#############################################
+# Link the executable PAT1007
+
+build PAT1007: CXX_EXECUTABLE_LINKER__PAT1007_Debug CMakeFiles/PAT1007.dir/pat1007.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1007.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1007.dir/
+  TARGET_FILE = PAT1007
+  TARGET_PDB = PAT1007.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1008
+
+
+#############################################
+# Order-only phony target for PAT1008
+
+build cmake_object_order_depends_target_PAT1008: phony || CMakeFiles/PAT1008.dir
+
+build CMakeFiles/PAT1008.dir/pat1008.cpp.o: CXX_COMPILER__PAT1008_Debug /Users/lavender/Desktop/ACM/pat1008.cpp || cmake_object_order_depends_target_PAT1008
+  DEP_FILE = CMakeFiles/PAT1008.dir/pat1008.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1008.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1008.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1008.dir/
+  TARGET_PDB = PAT1008.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1008
+
+
+#############################################
+# Link the executable PAT1008
+
+build PAT1008: CXX_EXECUTABLE_LINKER__PAT1008_Debug CMakeFiles/PAT1008.dir/pat1008.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1008.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1008.dir/
+  TARGET_FILE = PAT1008
+  TARGET_PDB = PAT1008.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1009
+
+
+#############################################
+# Order-only phony target for PAT1009
+
+build cmake_object_order_depends_target_PAT1009: phony || CMakeFiles/PAT1009.dir
+
+build CMakeFiles/PAT1009.dir/pat1009.cpp.o: CXX_COMPILER__PAT1009_Debug /Users/lavender/Desktop/ACM/pat1009.cpp || cmake_object_order_depends_target_PAT1009
+  DEP_FILE = CMakeFiles/PAT1009.dir/pat1009.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1009.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1009.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1009.dir/
+  TARGET_PDB = PAT1009.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1009
+
+
+#############################################
+# Link the executable PAT1009
+
+build PAT1009: CXX_EXECUTABLE_LINKER__PAT1009_Debug CMakeFiles/PAT1009.dir/pat1009.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1009.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1009.dir/
+  TARGET_FILE = PAT1009
+  TARGET_PDB = PAT1009.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1010
+
+
+#############################################
+# Order-only phony target for PAT1010
+
+build cmake_object_order_depends_target_PAT1010: phony || CMakeFiles/PAT1010.dir
+
+build CMakeFiles/PAT1010.dir/pat1010.cpp.o: CXX_COMPILER__PAT1010_Debug /Users/lavender/Desktop/ACM/pat1010.cpp || cmake_object_order_depends_target_PAT1010
+  DEP_FILE = CMakeFiles/PAT1010.dir/pat1010.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1010.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1010.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1010.dir/
+  TARGET_PDB = PAT1010.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1010
+
+
+#############################################
+# Link the executable PAT1010
+
+build PAT1010: CXX_EXECUTABLE_LINKER__PAT1010_Debug CMakeFiles/PAT1010.dir/pat1010.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1010.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1010.dir/
+  TARGET_FILE = PAT1010
+  TARGET_PDB = PAT1010.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1011
+
+
+#############################################
+# Order-only phony target for PAT1011
+
+build cmake_object_order_depends_target_PAT1011: phony || CMakeFiles/PAT1011.dir
+
+build CMakeFiles/PAT1011.dir/pat1011.cpp.o: CXX_COMPILER__PAT1011_Debug /Users/lavender/Desktop/ACM/pat1011.cpp || cmake_object_order_depends_target_PAT1011
+  DEP_FILE = CMakeFiles/PAT1011.dir/pat1011.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1011.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1011.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1011.dir/
+  TARGET_PDB = PAT1011.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1011
+
+
+#############################################
+# Link the executable PAT1011
+
+build PAT1011: CXX_EXECUTABLE_LINKER__PAT1011_Debug CMakeFiles/PAT1011.dir/pat1011.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1011.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1011.dir/
+  TARGET_FILE = PAT1011
+  TARGET_PDB = PAT1011.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1012
+
+
+#############################################
+# Order-only phony target for PAT1012
+
+build cmake_object_order_depends_target_PAT1012: phony || CMakeFiles/PAT1012.dir
+
+build CMakeFiles/PAT1012.dir/pat1012.cpp.o: CXX_COMPILER__PAT1012_Debug /Users/lavender/Desktop/ACM/pat1012.cpp || cmake_object_order_depends_target_PAT1012
+  DEP_FILE = CMakeFiles/PAT1012.dir/pat1012.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1012.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1012.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1012.dir/
+  TARGET_PDB = PAT1012.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1012
+
+
+#############################################
+# Link the executable PAT1012
+
+build PAT1012: CXX_EXECUTABLE_LINKER__PAT1012_Debug CMakeFiles/PAT1012.dir/pat1012.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1012.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1012.dir/
+  TARGET_FILE = PAT1012
+  TARGET_PDB = PAT1012.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1013
+
+
+#############################################
+# Order-only phony target for PAT1013
+
+build cmake_object_order_depends_target_PAT1013: phony || CMakeFiles/PAT1013.dir
+
+build CMakeFiles/PAT1013.dir/pat1013.cpp.o: CXX_COMPILER__PAT1013_Debug /Users/lavender/Desktop/ACM/pat1013.cpp || cmake_object_order_depends_target_PAT1013
+  DEP_FILE = CMakeFiles/PAT1013.dir/pat1013.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1013.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1013.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1013.dir/
+  TARGET_PDB = PAT1013.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1013
+
+
+#############################################
+# Link the executable PAT1013
+
+build PAT1013: CXX_EXECUTABLE_LINKER__PAT1013_Debug CMakeFiles/PAT1013.dir/pat1013.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1013.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1013.dir/
+  TARGET_FILE = PAT1013
+  TARGET_PDB = PAT1013.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1014
+
+
+#############################################
+# Order-only phony target for PAT1014
+
+build cmake_object_order_depends_target_PAT1014: phony || CMakeFiles/PAT1014.dir
+
+build CMakeFiles/PAT1014.dir/pat1014.cpp.o: CXX_COMPILER__PAT1014_Debug /Users/lavender/Desktop/ACM/pat1014.cpp || cmake_object_order_depends_target_PAT1014
+  DEP_FILE = CMakeFiles/PAT1014.dir/pat1014.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1014.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1014.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1014.dir/
+  TARGET_PDB = PAT1014.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1014
+
+
+#############################################
+# Link the executable PAT1014
+
+build PAT1014: CXX_EXECUTABLE_LINKER__PAT1014_Debug CMakeFiles/PAT1014.dir/pat1014.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1014.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1014.dir/
+  TARGET_FILE = PAT1014
+  TARGET_PDB = PAT1014.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1015
+
+
+#############################################
+# Order-only phony target for PAT1015
+
+build cmake_object_order_depends_target_PAT1015: phony || CMakeFiles/PAT1015.dir
+
+build CMakeFiles/PAT1015.dir/pat1015.cpp.o: CXX_COMPILER__PAT1015_Debug /Users/lavender/Desktop/ACM/pat1015.cpp || cmake_object_order_depends_target_PAT1015
+  DEP_FILE = CMakeFiles/PAT1015.dir/pat1015.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1015.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1015.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1015.dir/
+  TARGET_PDB = PAT1015.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1015
+
+
+#############################################
+# Link the executable PAT1015
+
+build PAT1015: CXX_EXECUTABLE_LINKER__PAT1015_Debug CMakeFiles/PAT1015.dir/pat1015.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1015.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1015.dir/
+  TARGET_FILE = PAT1015
+  TARGET_PDB = PAT1015.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1016
+
+
+#############################################
+# Order-only phony target for PAT1016
+
+build cmake_object_order_depends_target_PAT1016: phony || CMakeFiles/PAT1016.dir
+
+build CMakeFiles/PAT1016.dir/pat1016.cpp.o: CXX_COMPILER__PAT1016_Debug /Users/lavender/Desktop/ACM/pat1016.cpp || cmake_object_order_depends_target_PAT1016
+  DEP_FILE = CMakeFiles/PAT1016.dir/pat1016.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1016.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1016.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1016.dir/
+  TARGET_PDB = PAT1016.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1016
+
+
+#############################################
+# Link the executable PAT1016
+
+build PAT1016: CXX_EXECUTABLE_LINKER__PAT1016_Debug CMakeFiles/PAT1016.dir/pat1016.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1016.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1016.dir/
+  TARGET_FILE = PAT1016
+  TARGET_PDB = PAT1016.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1017
+
+
+#############################################
+# Order-only phony target for PAT1017
+
+build cmake_object_order_depends_target_PAT1017: phony || CMakeFiles/PAT1017.dir
+
+build CMakeFiles/PAT1017.dir/pat1017.cpp.o: CXX_COMPILER__PAT1017_Debug /Users/lavender/Desktop/ACM/pat1017.cpp || cmake_object_order_depends_target_PAT1017
+  DEP_FILE = CMakeFiles/PAT1017.dir/pat1017.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1017.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1017.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1017.dir/
+  TARGET_PDB = PAT1017.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1017
+
+
+#############################################
+# Link the executable PAT1017
+
+build PAT1017: CXX_EXECUTABLE_LINKER__PAT1017_Debug CMakeFiles/PAT1017.dir/pat1017.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1017.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1017.dir/
+  TARGET_FILE = PAT1017
+  TARGET_PDB = PAT1017.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1018
+
+
+#############################################
+# Order-only phony target for PAT1018
+
+build cmake_object_order_depends_target_PAT1018: phony || CMakeFiles/PAT1018.dir
+
+build CMakeFiles/PAT1018.dir/pat1018.cpp.o: CXX_COMPILER__PAT1018_Debug /Users/lavender/Desktop/ACM/pat1018.cpp || cmake_object_order_depends_target_PAT1018
+  DEP_FILE = CMakeFiles/PAT1018.dir/pat1018.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1018.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1018.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1018.dir/
+  TARGET_PDB = PAT1018.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1018
+
+
+#############################################
+# Link the executable PAT1018
+
+build PAT1018: CXX_EXECUTABLE_LINKER__PAT1018_Debug CMakeFiles/PAT1018.dir/pat1018.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1018.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1018.dir/
+  TARGET_FILE = PAT1018
+  TARGET_PDB = PAT1018.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1019
+
+
+#############################################
+# Order-only phony target for PAT1019
+
+build cmake_object_order_depends_target_PAT1019: phony || CMakeFiles/PAT1019.dir
+
+build CMakeFiles/PAT1019.dir/pat1019.cpp.o: CXX_COMPILER__PAT1019_Debug /Users/lavender/Desktop/ACM/pat1019.cpp || cmake_object_order_depends_target_PAT1019
+  DEP_FILE = CMakeFiles/PAT1019.dir/pat1019.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1019.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1019.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1019.dir/
+  TARGET_PDB = PAT1019.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1019
+
+
+#############################################
+# Link the executable PAT1019
+
+build PAT1019: CXX_EXECUTABLE_LINKER__PAT1019_Debug CMakeFiles/PAT1019.dir/pat1019.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1019.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1019.dir/
+  TARGET_FILE = PAT1019
+  TARGET_PDB = PAT1019.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1020
+
+
+#############################################
+# Order-only phony target for PAT1020
+
+build cmake_object_order_depends_target_PAT1020: phony || CMakeFiles/PAT1020.dir
+
+build CMakeFiles/PAT1020.dir/pat1020.cpp.o: CXX_COMPILER__PAT1020_Debug /Users/lavender/Desktop/ACM/pat1020.cpp || cmake_object_order_depends_target_PAT1020
+  DEP_FILE = CMakeFiles/PAT1020.dir/pat1020.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1020.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1020.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1020.dir/
+  TARGET_PDB = PAT1020.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1020
+
+
+#############################################
+# Link the executable PAT1020
+
+build PAT1020: CXX_EXECUTABLE_LINKER__PAT1020_Debug CMakeFiles/PAT1020.dir/pat1020.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1020.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1020.dir/
+  TARGET_FILE = PAT1020
+  TARGET_PDB = PAT1020.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1021
+
+
+#############################################
+# Order-only phony target for PAT1021
+
+build cmake_object_order_depends_target_PAT1021: phony || CMakeFiles/PAT1021.dir
+
+build CMakeFiles/PAT1021.dir/pat1021.cpp.o: CXX_COMPILER__PAT1021_Debug /Users/lavender/Desktop/ACM/pat1021.cpp || cmake_object_order_depends_target_PAT1021
+  DEP_FILE = CMakeFiles/PAT1021.dir/pat1021.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1021.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1021.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1021.dir/
+  TARGET_PDB = PAT1021.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1021
+
+
+#############################################
+# Link the executable PAT1021
+
+build PAT1021: CXX_EXECUTABLE_LINKER__PAT1021_Debug CMakeFiles/PAT1021.dir/pat1021.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1021.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1021.dir/
+  TARGET_FILE = PAT1021
+  TARGET_PDB = PAT1021.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1022
+
+
+#############################################
+# Order-only phony target for PAT1022
+
+build cmake_object_order_depends_target_PAT1022: phony || CMakeFiles/PAT1022.dir
+
+build CMakeFiles/PAT1022.dir/pat1022.cpp.o: CXX_COMPILER__PAT1022_Debug /Users/lavender/Desktop/ACM/pat1022.cpp || cmake_object_order_depends_target_PAT1022
+  DEP_FILE = CMakeFiles/PAT1022.dir/pat1022.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1022.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1022.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1022.dir/
+  TARGET_PDB = PAT1022.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1022
+
+
+#############################################
+# Link the executable PAT1022
+
+build PAT1022: CXX_EXECUTABLE_LINKER__PAT1022_Debug CMakeFiles/PAT1022.dir/pat1022.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1022.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1022.dir/
+  TARGET_FILE = PAT1022
+  TARGET_PDB = PAT1022.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1023
+
+
+#############################################
+# Order-only phony target for PAT1023
+
+build cmake_object_order_depends_target_PAT1023: phony || CMakeFiles/PAT1023.dir
+
+build CMakeFiles/PAT1023.dir/pat1023.cpp.o: CXX_COMPILER__PAT1023_Debug /Users/lavender/Desktop/ACM/pat1023.cpp || cmake_object_order_depends_target_PAT1023
+  DEP_FILE = CMakeFiles/PAT1023.dir/pat1023.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1023.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1023.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1023.dir/
+  TARGET_PDB = PAT1023.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1023
+
+
+#############################################
+# Link the executable PAT1023
+
+build PAT1023: CXX_EXECUTABLE_LINKER__PAT1023_Debug CMakeFiles/PAT1023.dir/pat1023.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1023.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1023.dir/
+  TARGET_FILE = PAT1023
+  TARGET_PDB = PAT1023.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1024
+
+
+#############################################
+# Order-only phony target for PAT1024
+
+build cmake_object_order_depends_target_PAT1024: phony || CMakeFiles/PAT1024.dir
+
+build CMakeFiles/PAT1024.dir/pat1024.cpp.o: CXX_COMPILER__PAT1024_Debug /Users/lavender/Desktop/ACM/pat1024.cpp || cmake_object_order_depends_target_PAT1024
+  DEP_FILE = CMakeFiles/PAT1024.dir/pat1024.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1024.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1024.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1024.dir/
+  TARGET_PDB = PAT1024.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1024
+
+
+#############################################
+# Link the executable PAT1024
+
+build PAT1024: CXX_EXECUTABLE_LINKER__PAT1024_Debug CMakeFiles/PAT1024.dir/pat1024.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1024.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1024.dir/
+  TARGET_FILE = PAT1024
+  TARGET_PDB = PAT1024.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1025
+
+
+#############################################
+# Order-only phony target for PAT1025
+
+build cmake_object_order_depends_target_PAT1025: phony || CMakeFiles/PAT1025.dir
+
+build CMakeFiles/PAT1025.dir/pat1025.cpp.o: CXX_COMPILER__PAT1025_Debug /Users/lavender/Desktop/ACM/pat1025.cpp || cmake_object_order_depends_target_PAT1025
+  DEP_FILE = CMakeFiles/PAT1025.dir/pat1025.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1025.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1025.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1025.dir/
+  TARGET_PDB = PAT1025.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1025
+
+
+#############################################
+# Link the executable PAT1025
+
+build PAT1025: CXX_EXECUTABLE_LINKER__PAT1025_Debug CMakeFiles/PAT1025.dir/pat1025.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1025.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1025.dir/
+  TARGET_FILE = PAT1025
+  TARGET_PDB = PAT1025.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1026
+
+
+#############################################
+# Order-only phony target for PAT1026
+
+build cmake_object_order_depends_target_PAT1026: phony || CMakeFiles/PAT1026.dir
+
+build CMakeFiles/PAT1026.dir/pat1026.cpp.o: CXX_COMPILER__PAT1026_Debug /Users/lavender/Desktop/ACM/pat1026.cpp || cmake_object_order_depends_target_PAT1026
+  DEP_FILE = CMakeFiles/PAT1026.dir/pat1026.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1026.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1026.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1026.dir/
+  TARGET_PDB = PAT1026.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1026
+
+
+#############################################
+# Link the executable PAT1026
+
+build PAT1026: CXX_EXECUTABLE_LINKER__PAT1026_Debug CMakeFiles/PAT1026.dir/pat1026.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1026.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1026.dir/
+  TARGET_FILE = PAT1026
+  TARGET_PDB = PAT1026.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1027
+
+
+#############################################
+# Order-only phony target for PAT1027
+
+build cmake_object_order_depends_target_PAT1027: phony || CMakeFiles/PAT1027.dir
+
+build CMakeFiles/PAT1027.dir/pat1027.cpp.o: CXX_COMPILER__PAT1027_Debug /Users/lavender/Desktop/ACM/pat1027.cpp || cmake_object_order_depends_target_PAT1027
+  DEP_FILE = CMakeFiles/PAT1027.dir/pat1027.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1027.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1027.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1027.dir/
+  TARGET_PDB = PAT1027.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1027
+
+
+#############################################
+# Link the executable PAT1027
+
+build PAT1027: CXX_EXECUTABLE_LINKER__PAT1027_Debug CMakeFiles/PAT1027.dir/pat1027.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1027.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1027.dir/
+  TARGET_FILE = PAT1027
+  TARGET_PDB = PAT1027.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1028
+
+
+#############################################
+# Order-only phony target for PAT1028
+
+build cmake_object_order_depends_target_PAT1028: phony || CMakeFiles/PAT1028.dir
+
+build CMakeFiles/PAT1028.dir/pat1028.cpp.o: CXX_COMPILER__PAT1028_Debug /Users/lavender/Desktop/ACM/pat1028.cpp || cmake_object_order_depends_target_PAT1028
+  DEP_FILE = CMakeFiles/PAT1028.dir/pat1028.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1028.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1028.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1028.dir/
+  TARGET_PDB = PAT1028.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1028
+
+
+#############################################
+# Link the executable PAT1028
+
+build PAT1028: CXX_EXECUTABLE_LINKER__PAT1028_Debug CMakeFiles/PAT1028.dir/pat1028.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1028.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1028.dir/
+  TARGET_FILE = PAT1028
+  TARGET_PDB = PAT1028.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1029
+
+
+#############################################
+# Order-only phony target for PAT1029
+
+build cmake_object_order_depends_target_PAT1029: phony || CMakeFiles/PAT1029.dir
+
+build CMakeFiles/PAT1029.dir/pat1029.cpp.o: CXX_COMPILER__PAT1029_Debug /Users/lavender/Desktop/ACM/pat1029.cpp || cmake_object_order_depends_target_PAT1029
+  DEP_FILE = CMakeFiles/PAT1029.dir/pat1029.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1029.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1029.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1029.dir/
+  TARGET_PDB = PAT1029.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1029
+
+
+#############################################
+# Link the executable PAT1029
+
+build PAT1029: CXX_EXECUTABLE_LINKER__PAT1029_Debug CMakeFiles/PAT1029.dir/pat1029.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1029.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1029.dir/
+  TARGET_FILE = PAT1029
+  TARGET_PDB = PAT1029.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1030
+
+
+#############################################
+# Order-only phony target for PAT1030
+
+build cmake_object_order_depends_target_PAT1030: phony || CMakeFiles/PAT1030.dir
+
+build CMakeFiles/PAT1030.dir/pat1030.cpp.o: CXX_COMPILER__PAT1030_Debug /Users/lavender/Desktop/ACM/pat1030.cpp || cmake_object_order_depends_target_PAT1030
+  DEP_FILE = CMakeFiles/PAT1030.dir/pat1030.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1030.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1030.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1030.dir/
+  TARGET_PDB = PAT1030.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1030
+
+
+#############################################
+# Link the executable PAT1030
+
+build PAT1030: CXX_EXECUTABLE_LINKER__PAT1030_Debug CMakeFiles/PAT1030.dir/pat1030.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1030.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1030.dir/
+  TARGET_FILE = PAT1030
+  TARGET_PDB = PAT1030.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1031
+
+
+#############################################
+# Order-only phony target for PAT1031
+
+build cmake_object_order_depends_target_PAT1031: phony || CMakeFiles/PAT1031.dir
+
+build CMakeFiles/PAT1031.dir/pat1031.cpp.o: CXX_COMPILER__PAT1031_Debug /Users/lavender/Desktop/ACM/pat1031.cpp || cmake_object_order_depends_target_PAT1031
+  DEP_FILE = CMakeFiles/PAT1031.dir/pat1031.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1031.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1031.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1031.dir/
+  TARGET_PDB = PAT1031.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1031
+
+
+#############################################
+# Link the executable PAT1031
+
+build PAT1031: CXX_EXECUTABLE_LINKER__PAT1031_Debug CMakeFiles/PAT1031.dir/pat1031.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1031.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1031.dir/
+  TARGET_FILE = PAT1031
+  TARGET_PDB = PAT1031.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1032
+
+
+#############################################
+# Order-only phony target for PAT1032
+
+build cmake_object_order_depends_target_PAT1032: phony || CMakeFiles/PAT1032.dir
+
+build CMakeFiles/PAT1032.dir/pat1032.cpp.o: CXX_COMPILER__PAT1032_Debug /Users/lavender/Desktop/ACM/pat1032.cpp || cmake_object_order_depends_target_PAT1032
+  DEP_FILE = CMakeFiles/PAT1032.dir/pat1032.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1032.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1032.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1032.dir/
+  TARGET_PDB = PAT1032.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1032
+
+
+#############################################
+# Link the executable PAT1032
+
+build PAT1032: CXX_EXECUTABLE_LINKER__PAT1032_Debug CMakeFiles/PAT1032.dir/pat1032.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1032.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1032.dir/
+  TARGET_FILE = PAT1032
+  TARGET_PDB = PAT1032.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1033
+
+
+#############################################
+# Order-only phony target for PAT1033
+
+build cmake_object_order_depends_target_PAT1033: phony || CMakeFiles/PAT1033.dir
+
+build CMakeFiles/PAT1033.dir/pat1033.cpp.o: CXX_COMPILER__PAT1033_Debug /Users/lavender/Desktop/ACM/pat1033.cpp || cmake_object_order_depends_target_PAT1033
+  DEP_FILE = CMakeFiles/PAT1033.dir/pat1033.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1033.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1033.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1033.dir/
+  TARGET_PDB = PAT1033.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1033
+
+
+#############################################
+# Link the executable PAT1033
+
+build PAT1033: CXX_EXECUTABLE_LINKER__PAT1033_Debug CMakeFiles/PAT1033.dir/pat1033.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1033.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1033.dir/
+  TARGET_FILE = PAT1033
+  TARGET_PDB = PAT1033.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1034
+
+
+#############################################
+# Order-only phony target for PAT1034
+
+build cmake_object_order_depends_target_PAT1034: phony || CMakeFiles/PAT1034.dir
+
+build CMakeFiles/PAT1034.dir/pat1034.cpp.o: CXX_COMPILER__PAT1034_Debug /Users/lavender/Desktop/ACM/pat1034.cpp || cmake_object_order_depends_target_PAT1034
+  DEP_FILE = CMakeFiles/PAT1034.dir/pat1034.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1034.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1034.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1034.dir/
+  TARGET_PDB = PAT1034.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1034
+
+
+#############################################
+# Link the executable PAT1034
+
+build PAT1034: CXX_EXECUTABLE_LINKER__PAT1034_Debug CMakeFiles/PAT1034.dir/pat1034.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1034.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1034.dir/
+  TARGET_FILE = PAT1034
+  TARGET_PDB = PAT1034.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1035
+
+
+#############################################
+# Order-only phony target for PAT1035
+
+build cmake_object_order_depends_target_PAT1035: phony || CMakeFiles/PAT1035.dir
+
+build CMakeFiles/PAT1035.dir/pat1035.cpp.o: CXX_COMPILER__PAT1035_Debug /Users/lavender/Desktop/ACM/pat1035.cpp || cmake_object_order_depends_target_PAT1035
+  DEP_FILE = CMakeFiles/PAT1035.dir/pat1035.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1035.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1035.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1035.dir/
+  TARGET_PDB = PAT1035.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1035
+
+
+#############################################
+# Link the executable PAT1035
+
+build PAT1035: CXX_EXECUTABLE_LINKER__PAT1035_Debug CMakeFiles/PAT1035.dir/pat1035.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1035.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1035.dir/
+  TARGET_FILE = PAT1035
+  TARGET_PDB = PAT1035.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1036
+
+
+#############################################
+# Order-only phony target for PAT1036
+
+build cmake_object_order_depends_target_PAT1036: phony || CMakeFiles/PAT1036.dir
+
+build CMakeFiles/PAT1036.dir/pat1036.cpp.o: CXX_COMPILER__PAT1036_Debug /Users/lavender/Desktop/ACM/pat1036.cpp || cmake_object_order_depends_target_PAT1036
+  DEP_FILE = CMakeFiles/PAT1036.dir/pat1036.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1036.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1036.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1036.dir/
+  TARGET_PDB = PAT1036.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1036
+
+
+#############################################
+# Link the executable PAT1036
+
+build PAT1036: CXX_EXECUTABLE_LINKER__PAT1036_Debug CMakeFiles/PAT1036.dir/pat1036.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1036.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1036.dir/
+  TARGET_FILE = PAT1036
+  TARGET_PDB = PAT1036.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1037
+
+
+#############################################
+# Order-only phony target for PAT1037
+
+build cmake_object_order_depends_target_PAT1037: phony || CMakeFiles/PAT1037.dir
+
+build CMakeFiles/PAT1037.dir/pat1037.cpp.o: CXX_COMPILER__PAT1037_Debug /Users/lavender/Desktop/ACM/pat1037.cpp || cmake_object_order_depends_target_PAT1037
+  DEP_FILE = CMakeFiles/PAT1037.dir/pat1037.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1037.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1037.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1037.dir/
+  TARGET_PDB = PAT1037.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1037
+
+
+#############################################
+# Link the executable PAT1037
+
+build PAT1037: CXX_EXECUTABLE_LINKER__PAT1037_Debug CMakeFiles/PAT1037.dir/pat1037.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1037.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1037.dir/
+  TARGET_FILE = PAT1037
+  TARGET_PDB = PAT1037.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1038
+
+
+#############################################
+# Order-only phony target for PAT1038
+
+build cmake_object_order_depends_target_PAT1038: phony || CMakeFiles/PAT1038.dir
+
+build CMakeFiles/PAT1038.dir/pat1038.cpp.o: CXX_COMPILER__PAT1038_Debug /Users/lavender/Desktop/ACM/pat1038.cpp || cmake_object_order_depends_target_PAT1038
+  DEP_FILE = CMakeFiles/PAT1038.dir/pat1038.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1038.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1038.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1038.dir/
+  TARGET_PDB = PAT1038.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1038
+
+
+#############################################
+# Link the executable PAT1038
+
+build PAT1038: CXX_EXECUTABLE_LINKER__PAT1038_Debug CMakeFiles/PAT1038.dir/pat1038.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1038.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1038.dir/
+  TARGET_FILE = PAT1038
+  TARGET_PDB = PAT1038.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1039
+
+
+#############################################
+# Order-only phony target for PAT1039
+
+build cmake_object_order_depends_target_PAT1039: phony || CMakeFiles/PAT1039.dir
+
+build CMakeFiles/PAT1039.dir/pat1039.cpp.o: CXX_COMPILER__PAT1039_Debug /Users/lavender/Desktop/ACM/pat1039.cpp || cmake_object_order_depends_target_PAT1039
+  DEP_FILE = CMakeFiles/PAT1039.dir/pat1039.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1039.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1039.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1039.dir/
+  TARGET_PDB = PAT1039.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1039
+
+
+#############################################
+# Link the executable PAT1039
+
+build PAT1039: CXX_EXECUTABLE_LINKER__PAT1039_Debug CMakeFiles/PAT1039.dir/pat1039.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1039.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1039.dir/
+  TARGET_FILE = PAT1039
+  TARGET_PDB = PAT1039.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1040
+
+
+#############################################
+# Order-only phony target for PAT1040
+
+build cmake_object_order_depends_target_PAT1040: phony || CMakeFiles/PAT1040.dir
+
+build CMakeFiles/PAT1040.dir/pat1040.cpp.o: CXX_COMPILER__PAT1040_Debug /Users/lavender/Desktop/ACM/pat1040.cpp || cmake_object_order_depends_target_PAT1040
+  DEP_FILE = CMakeFiles/PAT1040.dir/pat1040.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1040.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1040.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1040.dir/
+  TARGET_PDB = PAT1040.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1040
+
+
+#############################################
+# Link the executable PAT1040
+
+build PAT1040: CXX_EXECUTABLE_LINKER__PAT1040_Debug CMakeFiles/PAT1040.dir/pat1040.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1040.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1040.dir/
+  TARGET_FILE = PAT1040
+  TARGET_PDB = PAT1040.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1041
+
+
+#############################################
+# Order-only phony target for PAT1041
+
+build cmake_object_order_depends_target_PAT1041: phony || CMakeFiles/PAT1041.dir
+
+build CMakeFiles/PAT1041.dir/pat1041.cpp.o: CXX_COMPILER__PAT1041_Debug /Users/lavender/Desktop/ACM/pat1041.cpp || cmake_object_order_depends_target_PAT1041
+  DEP_FILE = CMakeFiles/PAT1041.dir/pat1041.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1041.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1041.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1041.dir/
+  TARGET_PDB = PAT1041.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1041
+
+
+#############################################
+# Link the executable PAT1041
+
+build PAT1041: CXX_EXECUTABLE_LINKER__PAT1041_Debug CMakeFiles/PAT1041.dir/pat1041.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1041.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1041.dir/
+  TARGET_FILE = PAT1041
+  TARGET_PDB = PAT1041.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1042
+
+
+#############################################
+# Order-only phony target for PAT1042
+
+build cmake_object_order_depends_target_PAT1042: phony || CMakeFiles/PAT1042.dir
+
+build CMakeFiles/PAT1042.dir/pat1042.cpp.o: CXX_COMPILER__PAT1042_Debug /Users/lavender/Desktop/ACM/pat1042.cpp || cmake_object_order_depends_target_PAT1042
+  DEP_FILE = CMakeFiles/PAT1042.dir/pat1042.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1042.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1042.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1042.dir/
+  TARGET_PDB = PAT1042.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1042
+
+
+#############################################
+# Link the executable PAT1042
+
+build PAT1042: CXX_EXECUTABLE_LINKER__PAT1042_Debug CMakeFiles/PAT1042.dir/pat1042.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1042.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1042.dir/
+  TARGET_FILE = PAT1042
+  TARGET_PDB = PAT1042.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1043
+
+
+#############################################
+# Order-only phony target for PAT1043
+
+build cmake_object_order_depends_target_PAT1043: phony || CMakeFiles/PAT1043.dir
+
+build CMakeFiles/PAT1043.dir/pat1043.cpp.o: CXX_COMPILER__PAT1043_Debug /Users/lavender/Desktop/ACM/pat1043.cpp || cmake_object_order_depends_target_PAT1043
+  DEP_FILE = CMakeFiles/PAT1043.dir/pat1043.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1043.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1043.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1043.dir/
+  TARGET_PDB = PAT1043.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1043
+
+
+#############################################
+# Link the executable PAT1043
+
+build PAT1043: CXX_EXECUTABLE_LINKER__PAT1043_Debug CMakeFiles/PAT1043.dir/pat1043.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1043.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1043.dir/
+  TARGET_FILE = PAT1043
+  TARGET_PDB = PAT1043.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1044
+
+
+#############################################
+# Order-only phony target for PAT1044
+
+build cmake_object_order_depends_target_PAT1044: phony || CMakeFiles/PAT1044.dir
+
+build CMakeFiles/PAT1044.dir/pat1044.cpp.o: CXX_COMPILER__PAT1044_Debug /Users/lavender/Desktop/ACM/pat1044.cpp || cmake_object_order_depends_target_PAT1044
+  DEP_FILE = CMakeFiles/PAT1044.dir/pat1044.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1044.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1044.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1044.dir/
+  TARGET_PDB = PAT1044.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1044
+
+
+#############################################
+# Link the executable PAT1044
+
+build PAT1044: CXX_EXECUTABLE_LINKER__PAT1044_Debug CMakeFiles/PAT1044.dir/pat1044.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1044.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1044.dir/
+  TARGET_FILE = PAT1044
+  TARGET_PDB = PAT1044.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1045
+
+
+#############################################
+# Order-only phony target for PAT1045
+
+build cmake_object_order_depends_target_PAT1045: phony || CMakeFiles/PAT1045.dir
+
+build CMakeFiles/PAT1045.dir/pat1045.cpp.o: CXX_COMPILER__PAT1045_Debug /Users/lavender/Desktop/ACM/pat1045.cpp || cmake_object_order_depends_target_PAT1045
+  DEP_FILE = CMakeFiles/PAT1045.dir/pat1045.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1045.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1045.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1045.dir/
+  TARGET_PDB = PAT1045.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1045
+
+
+#############################################
+# Link the executable PAT1045
+
+build PAT1045: CXX_EXECUTABLE_LINKER__PAT1045_Debug CMakeFiles/PAT1045.dir/pat1045.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1045.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1045.dir/
+  TARGET_FILE = PAT1045
+  TARGET_PDB = PAT1045.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1046
+
+
+#############################################
+# Order-only phony target for PAT1046
+
+build cmake_object_order_depends_target_PAT1046: phony || CMakeFiles/PAT1046.dir
+
+build CMakeFiles/PAT1046.dir/pat1046.cpp.o: CXX_COMPILER__PAT1046_Debug /Users/lavender/Desktop/ACM/pat1046.cpp || cmake_object_order_depends_target_PAT1046
+  DEP_FILE = CMakeFiles/PAT1046.dir/pat1046.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1046.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1046.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1046.dir/
+  TARGET_PDB = PAT1046.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1046
+
+
+#############################################
+# Link the executable PAT1046
+
+build PAT1046: CXX_EXECUTABLE_LINKER__PAT1046_Debug CMakeFiles/PAT1046.dir/pat1046.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1046.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1046.dir/
+  TARGET_FILE = PAT1046
+  TARGET_PDB = PAT1046.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1047
+
+
+#############################################
+# Order-only phony target for PAT1047
+
+build cmake_object_order_depends_target_PAT1047: phony || CMakeFiles/PAT1047.dir
+
+build CMakeFiles/PAT1047.dir/pat1047.cpp.o: CXX_COMPILER__PAT1047_Debug /Users/lavender/Desktop/ACM/pat1047.cpp || cmake_object_order_depends_target_PAT1047
+  DEP_FILE = CMakeFiles/PAT1047.dir/pat1047.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1047.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1047.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1047.dir/
+  TARGET_PDB = PAT1047.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1047
+
+
+#############################################
+# Link the executable PAT1047
+
+build PAT1047: CXX_EXECUTABLE_LINKER__PAT1047_Debug CMakeFiles/PAT1047.dir/pat1047.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1047.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1047.dir/
+  TARGET_FILE = PAT1047
+  TARGET_PDB = PAT1047.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1048
+
+
+#############################################
+# Order-only phony target for PAT1048
+
+build cmake_object_order_depends_target_PAT1048: phony || CMakeFiles/PAT1048.dir
+
+build CMakeFiles/PAT1048.dir/pat1048.cpp.o: CXX_COMPILER__PAT1048_Debug /Users/lavender/Desktop/ACM/pat1048.cpp || cmake_object_order_depends_target_PAT1048
+  DEP_FILE = CMakeFiles/PAT1048.dir/pat1048.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1048.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1048.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1048.dir/
+  TARGET_PDB = PAT1048.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1048
+
+
+#############################################
+# Link the executable PAT1048
+
+build PAT1048: CXX_EXECUTABLE_LINKER__PAT1048_Debug CMakeFiles/PAT1048.dir/pat1048.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1048.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1048.dir/
+  TARGET_FILE = PAT1048
+  TARGET_PDB = PAT1048.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1049
+
+
+#############################################
+# Order-only phony target for PAT1049
+
+build cmake_object_order_depends_target_PAT1049: phony || CMakeFiles/PAT1049.dir
+
+build CMakeFiles/PAT1049.dir/pat1049.cpp.o: CXX_COMPILER__PAT1049_Debug /Users/lavender/Desktop/ACM/pat1049.cpp || cmake_object_order_depends_target_PAT1049
+  DEP_FILE = CMakeFiles/PAT1049.dir/pat1049.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1049.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1049.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1049.dir/
+  TARGET_PDB = PAT1049.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1049
+
+
+#############################################
+# Link the executable PAT1049
+
+build PAT1049: CXX_EXECUTABLE_LINKER__PAT1049_Debug CMakeFiles/PAT1049.dir/pat1049.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1049.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1049.dir/
+  TARGET_FILE = PAT1049
+  TARGET_PDB = PAT1049.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1050
+
+
+#############################################
+# Order-only phony target for PAT1050
+
+build cmake_object_order_depends_target_PAT1050: phony || CMakeFiles/PAT1050.dir
+
+build CMakeFiles/PAT1050.dir/pat1050.cpp.o: CXX_COMPILER__PAT1050_Debug /Users/lavender/Desktop/ACM/pat1050.cpp || cmake_object_order_depends_target_PAT1050
+  DEP_FILE = CMakeFiles/PAT1050.dir/pat1050.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1050.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1050.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1050.dir/
+  TARGET_PDB = PAT1050.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1050
+
+
+#############################################
+# Link the executable PAT1050
+
+build PAT1050: CXX_EXECUTABLE_LINKER__PAT1050_Debug CMakeFiles/PAT1050.dir/pat1050.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1050.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1050.dir/
+  TARGET_FILE = PAT1050
+  TARGET_PDB = PAT1050.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1051
+
+
+#############################################
+# Order-only phony target for PAT1051
+
+build cmake_object_order_depends_target_PAT1051: phony || CMakeFiles/PAT1051.dir
+
+build CMakeFiles/PAT1051.dir/pat1051.cpp.o: CXX_COMPILER__PAT1051_Debug /Users/lavender/Desktop/ACM/pat1051.cpp || cmake_object_order_depends_target_PAT1051
+  DEP_FILE = CMakeFiles/PAT1051.dir/pat1051.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1051.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1051.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1051.dir/
+  TARGET_PDB = PAT1051.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1051
+
+
+#############################################
+# Link the executable PAT1051
+
+build PAT1051: CXX_EXECUTABLE_LINKER__PAT1051_Debug CMakeFiles/PAT1051.dir/pat1051.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1051.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1051.dir/
+  TARGET_FILE = PAT1051
+  TARGET_PDB = PAT1051.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1052
+
+
+#############################################
+# Order-only phony target for PAT1052
+
+build cmake_object_order_depends_target_PAT1052: phony || CMakeFiles/PAT1052.dir
+
+build CMakeFiles/PAT1052.dir/pat1052.cpp.o: CXX_COMPILER__PAT1052_Debug /Users/lavender/Desktop/ACM/pat1052.cpp || cmake_object_order_depends_target_PAT1052
+  DEP_FILE = CMakeFiles/PAT1052.dir/pat1052.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1052.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1052.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1052.dir/
+  TARGET_PDB = PAT1052.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1052
+
+
+#############################################
+# Link the executable PAT1052
+
+build PAT1052: CXX_EXECUTABLE_LINKER__PAT1052_Debug CMakeFiles/PAT1052.dir/pat1052.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1052.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1052.dir/
+  TARGET_FILE = PAT1052
+  TARGET_PDB = PAT1052.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1053
+
+
+#############################################
+# Order-only phony target for PAT1053
+
+build cmake_object_order_depends_target_PAT1053: phony || CMakeFiles/PAT1053.dir
+
+build CMakeFiles/PAT1053.dir/pat1053.cpp.o: CXX_COMPILER__PAT1053_Debug /Users/lavender/Desktop/ACM/pat1053.cpp || cmake_object_order_depends_target_PAT1053
+  DEP_FILE = CMakeFiles/PAT1053.dir/pat1053.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1053.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1053.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1053.dir/
+  TARGET_PDB = PAT1053.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1053
+
+
+#############################################
+# Link the executable PAT1053
+
+build PAT1053: CXX_EXECUTABLE_LINKER__PAT1053_Debug CMakeFiles/PAT1053.dir/pat1053.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1053.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1053.dir/
+  TARGET_FILE = PAT1053
+  TARGET_PDB = PAT1053.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1054
+
+
+#############################################
+# Order-only phony target for PAT1054
+
+build cmake_object_order_depends_target_PAT1054: phony || CMakeFiles/PAT1054.dir
+
+build CMakeFiles/PAT1054.dir/pat1054.cpp.o: CXX_COMPILER__PAT1054_Debug /Users/lavender/Desktop/ACM/pat1054.cpp || cmake_object_order_depends_target_PAT1054
+  DEP_FILE = CMakeFiles/PAT1054.dir/pat1054.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1054.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1054.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1054.dir/
+  TARGET_PDB = PAT1054.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1054
+
+
+#############################################
+# Link the executable PAT1054
+
+build PAT1054: CXX_EXECUTABLE_LINKER__PAT1054_Debug CMakeFiles/PAT1054.dir/pat1054.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1054.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1054.dir/
+  TARGET_FILE = PAT1054
+  TARGET_PDB = PAT1054.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1055
+
+
+#############################################
+# Order-only phony target for PAT1055
+
+build cmake_object_order_depends_target_PAT1055: phony || CMakeFiles/PAT1055.dir
+
+build CMakeFiles/PAT1055.dir/pat1055.cpp.o: CXX_COMPILER__PAT1055_Debug /Users/lavender/Desktop/ACM/pat1055.cpp || cmake_object_order_depends_target_PAT1055
+  DEP_FILE = CMakeFiles/PAT1055.dir/pat1055.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1055.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1055.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1055.dir/
+  TARGET_PDB = PAT1055.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1055
+
+
+#############################################
+# Link the executable PAT1055
+
+build PAT1055: CXX_EXECUTABLE_LINKER__PAT1055_Debug CMakeFiles/PAT1055.dir/pat1055.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1055.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1055.dir/
+  TARGET_FILE = PAT1055
+  TARGET_PDB = PAT1055.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1056
+
+
+#############################################
+# Order-only phony target for PAT1056
+
+build cmake_object_order_depends_target_PAT1056: phony || CMakeFiles/PAT1056.dir
+
+build CMakeFiles/PAT1056.dir/pat1056.cpp.o: CXX_COMPILER__PAT1056_Debug /Users/lavender/Desktop/ACM/pat1056.cpp || cmake_object_order_depends_target_PAT1056
+  DEP_FILE = CMakeFiles/PAT1056.dir/pat1056.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1056.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1056.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1056.dir/
+  TARGET_PDB = PAT1056.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1056
+
+
+#############################################
+# Link the executable PAT1056
+
+build PAT1056: CXX_EXECUTABLE_LINKER__PAT1056_Debug CMakeFiles/PAT1056.dir/pat1056.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1056.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1056.dir/
+  TARGET_FILE = PAT1056
+  TARGET_PDB = PAT1056.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1057
+
+
+#############################################
+# Order-only phony target for PAT1057
+
+build cmake_object_order_depends_target_PAT1057: phony || CMakeFiles/PAT1057.dir
+
+build CMakeFiles/PAT1057.dir/pat1057.cpp.o: CXX_COMPILER__PAT1057_Debug /Users/lavender/Desktop/ACM/pat1057.cpp || cmake_object_order_depends_target_PAT1057
+  DEP_FILE = CMakeFiles/PAT1057.dir/pat1057.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1057.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1057.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1057.dir/
+  TARGET_PDB = PAT1057.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1057
+
+
+#############################################
+# Link the executable PAT1057
+
+build PAT1057: CXX_EXECUTABLE_LINKER__PAT1057_Debug CMakeFiles/PAT1057.dir/pat1057.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1057.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1057.dir/
+  TARGET_FILE = PAT1057
+  TARGET_PDB = PAT1057.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1058
+
+
+#############################################
+# Order-only phony target for PAT1058
+
+build cmake_object_order_depends_target_PAT1058: phony || CMakeFiles/PAT1058.dir
+
+build CMakeFiles/PAT1058.dir/pat1058.cpp.o: CXX_COMPILER__PAT1058_Debug /Users/lavender/Desktop/ACM/pat1058.cpp || cmake_object_order_depends_target_PAT1058
+  DEP_FILE = CMakeFiles/PAT1058.dir/pat1058.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1058.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1058.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1058.dir/
+  TARGET_PDB = PAT1058.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1058
+
+
+#############################################
+# Link the executable PAT1058
+
+build PAT1058: CXX_EXECUTABLE_LINKER__PAT1058_Debug CMakeFiles/PAT1058.dir/pat1058.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1058.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1058.dir/
+  TARGET_FILE = PAT1058
+  TARGET_PDB = PAT1058.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1059
+
+
+#############################################
+# Order-only phony target for PAT1059
+
+build cmake_object_order_depends_target_PAT1059: phony || CMakeFiles/PAT1059.dir
+
+build CMakeFiles/PAT1059.dir/pat1059.cpp.o: CXX_COMPILER__PAT1059_Debug /Users/lavender/Desktop/ACM/pat1059.cpp || cmake_object_order_depends_target_PAT1059
+  DEP_FILE = CMakeFiles/PAT1059.dir/pat1059.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1059.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1059.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1059.dir/
+  TARGET_PDB = PAT1059.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1059
+
+
+#############################################
+# Link the executable PAT1059
+
+build PAT1059: CXX_EXECUTABLE_LINKER__PAT1059_Debug CMakeFiles/PAT1059.dir/pat1059.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1059.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1059.dir/
+  TARGET_FILE = PAT1059
+  TARGET_PDB = PAT1059.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1060
+
+
+#############################################
+# Order-only phony target for PAT1060
+
+build cmake_object_order_depends_target_PAT1060: phony || CMakeFiles/PAT1060.dir
+
+build CMakeFiles/PAT1060.dir/pat1060.cpp.o: CXX_COMPILER__PAT1060_Debug /Users/lavender/Desktop/ACM/pat1060.cpp || cmake_object_order_depends_target_PAT1060
+  DEP_FILE = CMakeFiles/PAT1060.dir/pat1060.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1060.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1060.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1060.dir/
+  TARGET_PDB = PAT1060.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1060
+
+
+#############################################
+# Link the executable PAT1060
+
+build PAT1060: CXX_EXECUTABLE_LINKER__PAT1060_Debug CMakeFiles/PAT1060.dir/pat1060.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1060.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1060.dir/
+  TARGET_FILE = PAT1060
+  TARGET_PDB = PAT1060.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1061
+
+
+#############################################
+# Order-only phony target for PAT1061
+
+build cmake_object_order_depends_target_PAT1061: phony || CMakeFiles/PAT1061.dir
+
+build CMakeFiles/PAT1061.dir/pat1061.cpp.o: CXX_COMPILER__PAT1061_Debug /Users/lavender/Desktop/ACM/pat1061.cpp || cmake_object_order_depends_target_PAT1061
+  DEP_FILE = CMakeFiles/PAT1061.dir/pat1061.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1061.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1061.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1061.dir/
+  TARGET_PDB = PAT1061.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1061
+
+
+#############################################
+# Link the executable PAT1061
+
+build PAT1061: CXX_EXECUTABLE_LINKER__PAT1061_Debug CMakeFiles/PAT1061.dir/pat1061.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1061.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1061.dir/
+  TARGET_FILE = PAT1061
+  TARGET_PDB = PAT1061.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1062
+
+
+#############################################
+# Order-only phony target for PAT1062
+
+build cmake_object_order_depends_target_PAT1062: phony || CMakeFiles/PAT1062.dir
+
+build CMakeFiles/PAT1062.dir/pat1062.cpp.o: CXX_COMPILER__PAT1062_Debug /Users/lavender/Desktop/ACM/pat1062.cpp || cmake_object_order_depends_target_PAT1062
+  DEP_FILE = CMakeFiles/PAT1062.dir/pat1062.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1062.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1062.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1062.dir/
+  TARGET_PDB = PAT1062.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1062
+
+
+#############################################
+# Link the executable PAT1062
+
+build PAT1062: CXX_EXECUTABLE_LINKER__PAT1062_Debug CMakeFiles/PAT1062.dir/pat1062.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1062.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1062.dir/
+  TARGET_FILE = PAT1062
+  TARGET_PDB = PAT1062.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1063
+
+
+#############################################
+# Order-only phony target for PAT1063
+
+build cmake_object_order_depends_target_PAT1063: phony || CMakeFiles/PAT1063.dir
+
+build CMakeFiles/PAT1063.dir/pat1063.cpp.o: CXX_COMPILER__PAT1063_Debug /Users/lavender/Desktop/ACM/pat1063.cpp || cmake_object_order_depends_target_PAT1063
+  DEP_FILE = CMakeFiles/PAT1063.dir/pat1063.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1063.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1063.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1063.dir/
+  TARGET_PDB = PAT1063.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1063
+
+
+#############################################
+# Link the executable PAT1063
+
+build PAT1063: CXX_EXECUTABLE_LINKER__PAT1063_Debug CMakeFiles/PAT1063.dir/pat1063.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1063.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1063.dir/
+  TARGET_FILE = PAT1063
+  TARGET_PDB = PAT1063.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PAT1071
+
+
+#############################################
+# Order-only phony target for PAT1071
+
+build cmake_object_order_depends_target_PAT1071: phony || CMakeFiles/PAT1071.dir
+
+build CMakeFiles/PAT1071.dir/pat1071.cpp.o: CXX_COMPILER__PAT1071_Debug /Users/lavender/Desktop/ACM/pat1071.cpp || cmake_object_order_depends_target_PAT1071
+  DEP_FILE = CMakeFiles/PAT1071.dir/pat1071.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/PAT1071.dir
+  OBJECT_FILE_DIR = CMakeFiles/PAT1071.dir
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1071.dir/
+  TARGET_PDB = PAT1071.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PAT1071
+
+
+#############################################
+# Link the executable PAT1071
+
+build PAT1071: CXX_EXECUTABLE_LINKER__PAT1071_Debug CMakeFiles/PAT1071.dir/pat1071.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/PAT1071.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PAT1071.dir/
+  TARGET_FILE = PAT1071
+  TARGET_PDB = PAT1071.pdb
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/lavender/Desktop/ACM/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/lavender/Desktop/ACM/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/lavender/Desktop/ACM -B/Users/lavender/Desktop/ACM/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/lavender/Desktop/ACM/cmake-build-debug
+
+build all: phony Main PAT1001 PAT1002 PAT1003 PAT1004 PAT1005 PAT1006 PAT1007 PAT1008 PAT1009 PAT1010 PAT1011 PAT1012 PAT1013 PAT1014 PAT1015 PAT1016 PAT1017 PAT1018 PAT1019 PAT1020 PAT1021 PAT1022 PAT1023 PAT1024 PAT1025 PAT1026 PAT1027 PAT1028 PAT1029 PAT1030 PAT1031 PAT1032 PAT1033 PAT1034 PAT1035 PAT1036 PAT1037 PAT1038 PAT1039 PAT1040 PAT1041 PAT1042 PAT1043 PAT1044 PAT1045 PAT1046 PAT1047 PAT1048 PAT1049 PAT1050 PAT1051 PAT1052 PAT1053 PAT1054 PAT1055 PAT1056 PAT1057 PAT1058 PAT1059 PAT1060 PAT1061 PAT1062 PAT1063 PAT1071
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCCompilerABI.c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCompilerIdDetection.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompileFeatures.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompilerABI.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeFindBinUtils.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseImplicitIncludeInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseImplicitLinkInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseLibraryArchitecture.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeTestCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeTestCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/ADSP-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Borland-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Cray-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GHS-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/HP-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IAR-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Intel-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/LCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/MSVC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/PGI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/PathScale-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SCO-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/TI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Watcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/XL-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/zOS-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Internal/FeatureTesting.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Determine-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/lavender/Desktop/ACM/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCCompilerABI.c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCompilerIdDetection.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompileFeatures.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompilerABI.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeFindBinUtils.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseImplicitIncludeInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseImplicitLinkInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseLibraryArchitecture.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeTestCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeTestCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/ADSP-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Borland-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Cray-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GHS-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/HP-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IAR-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Intel-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/LCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/MSVC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/PGI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/PathScale-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SCO-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/TI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Watcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/XL-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/zOS-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Internal/FeatureTesting.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Determine-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/lavender/Desktop/ACM/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
